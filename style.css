@@ -13,6 +13,13 @@ body {
 
 .container-fluid {
   padding: 3% 15%;
+  background-color: skyblue;
+}
+
+.audio {
+  margin: 15px;
+  padding-right: 25px;
+  /*right: 22px;*/
 }
 
 h1 {
@@ -28,6 +35,7 @@ h2 {
   line-height: 1.5;
   font-weight: bold;
 }
+
 h3 {
   font-family: "Montserrat-Bold";
   font-weight: bold;
@@ -101,6 +109,7 @@ p {
 
 .carousel-item {
   padding: 7% 12%;
+  background-color: lightblue;
 }
 
 .img-dog { /* or testimonial-image */
@@ -110,10 +119,10 @@ p {
 }
 
 #press {
-  background-color: #ef8172;
+  background-color: lightblue;    /*#ef8172;*/
   text-align: center;
   padding-bottom: 3%;
-  /*width: 10%;*/
+/*  width: 10%;*/
   }
 
   .press-logo {
@@ -122,12 +131,20 @@ p {
 
   }
   
-  /*Pricing Section*/
-#pricing {
+  /*About Section*/
+#about {
   padding: 100px;
   text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
 }
