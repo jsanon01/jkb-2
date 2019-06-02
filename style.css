@@ -2,24 +2,63 @@ body {
   font-family: "Montserrat";
 }
 
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-around;
+}
+/*.img1 .img2 .img3 .img4 {
+    width: 10%;
+    height: 15;
+    margin: 20px 20px 50px;
+    border-radius: 100%;
+    max-width: 100px;
+    height: 150px;
+}*/
+
 #title {
-  background-color: #ff4c68;
-  color: white; /*#fff = white | #000 = black*/
+  /*background-color: #74b49b;*/
+  color: #226b80; /*#fff = white | #000 = black*/
 }
 
+.img-logo {
+  width: 90px;
+  border-radius: 50%;
+}
 /*#dev {
   background-color: white;
 }*/
 
-.container-fluid {
-  padding: 3% 15%;
-  background-color: skyblue;
+.sticky-pam {
+   position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    overflow: auto;
+
 }
 
-.audio {
-  margin: 15px;
-  padding-right: 25px;
+.pascal {
+  margin-bottom: 50px;
+}
+.container-fluid {
+  padding: 3% 15%;
+  background-color: #beeef7;
+}
+
+.audio  {
+  margin: 0 auto;
+  /*padding-right: 25px;*/
+  border-radius: 10px;
   /*right: 22px;*/
+}
+
+.audio-control {
+  margin-top: 10px;
 }
 
 h1 {
@@ -37,10 +76,39 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat-Bold";
+  font-family: ""Sacramento"";
   font-weight: bold;
 }
 
+.comite {
+  font-family: "Sacramento";
+  color: red;
+/*  font-weight: bold;*/
+  text-align: center;
+  padding-top: 20px;
+  line-height: 2;
+  font-weight: 5rem;
+}
+
+.comite-direction {
+  font-family: "Sacramento";
+  color: red;
+/*  font-weight: bold;*/
+  text-align: center;
+  padding-top: 20px;
+  line-height: 2;
+  font-weight: 5rem;
+}
+
+.comite-membre{
+  font-family: "Sacramento";
+  color: red;
+/*  font-weight: bold;*/
+  text-align: center;
+  padding-top: 20px;
+  line-height: 2;
+  font-weight: 5rem;
+}
 p {
   color: #8f8f8f;
   
@@ -64,8 +132,16 @@ p {
 .nav-link {
   font-family: "Montserrat-Light";
   font-size: 1.2rem;
+  /*color: red;*/
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #226b80 /*rgba(255,255,255,.5)*/;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red /*rgba(255,255,255,.5)*/;
+}
   /*Download Buttons*/
 
 .download-button {
@@ -77,6 +153,7 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(0deg);
+  border-radius: 10px;
 } 
 
   /*Features Section */
@@ -91,11 +168,12 @@ p {
   }
 
 .icon {
-  color: #ef8172;
+  color: #226b80/*#ef8172*/;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
+  /*color: #ff4c68;*/
   color: #ff4c68;
 }
 
@@ -128,11 +206,12 @@ p {
   .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+    border-radius: 5px;
 
   }
   
-  /*About Section*/
-#about {
+  /*Projects Section*/
+#project {
   padding: 100px;
   text-align: center;
 }
@@ -141,10 +220,35 @@ p {
   padding: 3% 2%;
 }
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 55px;
+}
+
 #cta {
   text-align: center;
 }
 
 #footer {
   text-align: center;
+  padding: 2% 5%;
+  background-color: skyblue;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1028px) {
+  
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
