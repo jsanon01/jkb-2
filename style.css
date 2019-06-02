@@ -191,7 +191,7 @@ p {
 }
 
 .img-dog { /* or testimonial-image */
-  border-radius: 100%;
+  border-radius: 90%;
   width: 10%;
   margin: 20px;
 }
@@ -229,6 +229,7 @@ p {
 
 #cta {
   text-align: center;
+  /*padding-bottom: 20px;*/
 }
 
 #footer {
