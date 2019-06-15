@@ -1,0 +1,77 @@
+
+/*GENERAL SECTION */
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+/*TAGS SECTION */
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 2.0rem;
+  line-height: 1.5;
+  font-weight: bold;
+  /*text-align: left;*/
+  color: #226b80;
+}
+
+h2 {
+  font-family: "Sacramento";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: red;
+}
+
+nav { 
+  background-color: blue;
+ }
+
+ /* CONTAINER SECTION*/
+
+ .container {
+  background-color: #beeef7;
+ }
+
+/*NAVIGATION SECTION */
+.bg-light {
+  background-color: #beeef7 !important;
+}
+
+
+
+
+/*TITLE SECTION */
+.title {
+  background-color: #beeef7;
+}
+.audio-img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.audio-control {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/*MAIN CONTENT SECTION */
+
+.main-content {
+    margin-top: 20px;
+    background-color: white;
+  }
+
+.qui-nous-sommes {
+    background-color: white;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.card-spacer {
+  margin-bottom: 20px;
+}
