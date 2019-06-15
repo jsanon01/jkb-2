@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: "Montserrat";
+/*  background-color: #beeef7;*/
 }
 
 /*TAGS SECTION */
@@ -62,16 +63,42 @@ nav {
 .main-content {
     margin-top: 20px;
     background-color: white;
+      margin-bottom: 20px;
   }
 
 .qui-nous-sommes {
     background-color: white;
 }
+/*.card {
+  margin: 5px;
+}
+*/
 
-.card {
-  margin: 0 auto;
+/*.card-spacer {
+  margin-bottom: 20px;
+  margin-right: 2px;
+}*/
+
+.card-img-top {
+   object-fit: cover;
+  /*object-position: 100% 0;*/
+
+  width: 100px;
+  height: 137px;
+              }
+
+.dekouvrim {
+  text-align: center;
 }
 
-.card-spacer {
-  margin-bottom: 20px;
+/* FOOTER SECTION*/
+
+footer {
+  background-color: #beeef7;
+  text-align: center;
+
+}
+
+.copyright {
+  margin-bottom: 0;
 }
