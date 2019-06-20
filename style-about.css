@@ -37,6 +37,7 @@ nav {
  }
 
 /*NAVIGATION SECTION */
+
 .bg-light {
   background-color: #beeef7 !important;
 }
@@ -47,15 +48,23 @@ nav {
 /*TITLE SECTION */
 .title {
   background-color: #beeef7;
+  max-width: 100%;
 }
+
 .audio-img {
   max-width: 100%;
   margin-bottom: 20px;
 }
 
+.audio-img-eglise {
+    width: 290px;
+    height: 180px;
+}
+
 .audio-control {
   max-width: 100%;
   border-radius: 5px;
+  margin: 20px 0 20px;
 }
 
 /*MAIN CONTENT SECTION */
@@ -68,7 +77,16 @@ nav {
 
 .qui-nous-sommes {
     background-color: white;
+    text-align: center;
 }
+.comite {
+   text-align: center;
+}
+
+.special {
+   text-align: center;
+}
+
 /*.card {
   margin: 5px;
 }
@@ -81,11 +99,17 @@ nav {
 
 .card-img-top {
    object-fit: cover;
+   text-align: center;
+   align-self: center;
   /*object-position: 100% 0;*/
 
   width: 100px;
   height: 137px;
               }
+
+.card-text {
+  text-align: center;
+}
 
 .dekouvrim {
   text-align: center;
@@ -101,4 +125,90 @@ footer {
 
 .copyright {
   margin-bottom: 0;
+}
+
+/*FEATURES SECTION */
+#features {
+  padding: 7% 12%;
+  text-align: center;
+  }
+
+  .feature-box {
+  text-align: center;
+  padding: 5%;
+  }
+
+.icon {
+  color: #226b80/*#ef8172*/;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*Testimonials Section*/
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 12%;
+  background-color: lightblue;
+}
+
+.img-dog { 
+  border-radius: 50%;
+  width: 150px;
+  }
+
+#press {
+  background-color: lightblue;    /*#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+/*  width: 10%;*/
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+    border-radius: 5px;
+
+  }
+
+   /*Projects Section*/
+
+#project {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 55px;
+}
+
+#cta {
+  text-align: center;
+  /*padding-bottom: 20px;*/
+}
+
+#footer {
+  text-align: center;
+  padding: 2% 5%;
+  background-color: skyblue;
+}
+
+.social-icon {
+  margin: 20px 10px;
 }
